@@ -23,7 +23,7 @@ int main(){
     GradeBook myGradeBook; // cria um objeto GradeBook chamado myGradeBook
     
     cout << "Por favor, informe o nome do curso: \n\n" << endl;
-    cin >> nomeDoCurso;
+    getline( cin, nomeDoCurso );
 
     myGradeBook.MostraMensagem( nomeDoCurso ); // chama a função displayMessage do objeto
 
